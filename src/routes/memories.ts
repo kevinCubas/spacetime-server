@@ -91,7 +91,7 @@ export async function memoriesRoutes(app: FastifyInstance) {
       },
     })
 
-    if (memory.id !== request.user.sub) {
+    if (memory.userId !== request.user.sub) {
       return reply.status(401).send({
         message: 'Unauthorized',
       })

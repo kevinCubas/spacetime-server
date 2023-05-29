@@ -43,6 +43,10 @@ export async function authRoutes(app: FastifyInstance) {
 
     const userInfo = userSchema.parse(userResponse.data)
 
+    if (!userInfo) {
+      return { error: 'Authentication failed' }
+    }
+
     let user = await prisma.user.findUnique({
       where: {
         githubId: userInfo.id,
