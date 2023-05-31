@@ -1,15 +1,22 @@
 # NLW - Spacetime SERVER
 Back-end Time capsule designed to help you collect your most memorable moments. This README document provides an overview of the features, used technologies, and functionalities of the application, as well as instructions on how to set it up and use it effectively.
 
-🚧UNDER CONSTRUCTION🚧
-
 ## Technologies Used:
 
 - [Node](https://nodejs.org/en)
 - [Typescript](https://www.typescriptlang.org/pt/)
+- [zod](https://github.com/colinhacks/zod): Library for schema validation
 - [axios](https://axios-http.com/ptbr/docs/intro)
-- [Fastify]()
-- [GIT]()
+- [Fastify](https://www.fastify.io/)
+- [@fastify/cors](https://www.npmjs.com/package/@fastify/cors): enabling Cross-Origin Resource Sharing (CORS) in Fastify
+- [@fastify/jwt](https://github.com/fastify/fastify-jwt): JWT authentication plugin for Fastify
+- [@fastify/multipart](https://github.com/fastify/fastify-multipart): Plugin for handling multipart/form-data requests in Fastify
+- [@fastify/static](https://www.npmjs.com/package/@fastify/static): Plugin for serving static files in Fastify
+- [Prisma](https://www.prisma.io/)
+- [@prisma/client](https://www.npmjs.com/package/@prisma/client): Prisma Client for database access
+- [eslint](https://eslint.org/): @rocketseat/eslint-config
+- [dotenv](https://www.npmjs.com/package/dotenv)
+- [GIT](https://git-scm.com/)
 
 ## Features:
 
